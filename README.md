@@ -10,7 +10,7 @@ Es posible introducir los valores deseados de filtrado en el porcentaje de ident
 En el directorio de ejecución se creará:
 
     - un archivo log
-    - una carpte Data: que contendrá la o las querys utilizadas
+    - una carpeta Data: que contendrá la o las querys utilizadas
     - una carpeta Results: que contendrá a su vez:
             - un archivo multifasta con los CDS
             - carpeta BlastP_results: donde se guardan los resultados filtrados del blastP para cada query
