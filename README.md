@@ -28,7 +28,7 @@ En el path de ejecución se creará:
                         
                         - carpeta Aligments: donde se guardan los archivos con hits alineados con MUSCLE.
                         
-                        - carpeta NJTees: con los resultados del MUSCLE NJTree.
+                        - carpeta NJTrees: con los resultados del MUSCLE NJTree.
                         
                         - carpeta Protein_Domains: donde se guardan los archivos que contienen los 
                         dominios de cada proteina obtenidos parseando ProSite.
