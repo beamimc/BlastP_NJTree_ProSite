@@ -1,7 +1,8 @@
 # BlastP_NJTree_ProSite
 Paquete de pyhton que, dadas unas secuencias query en un archivo multifasta y una carpeta con archivos genbank: parsea y obtiene los CDS de cada archivo genbank, y realiza un BlasP para cada secuencia query contra esos CDS. Los resultados del blast se filtran por porcentaje de indentidad y de covertura. Con los hits obtenidos en el blast se hace un alineamiento de secuencias y un NJ tree para cada blast (uno por query). Finalmente, para cada proteina hit en los blastp, se hace una búsqueda de sus dominios utilizando la base de datos de dominios de ProSite.'
 
-##para la ejecución:
+Para la correcta ejecución:
+- 
 
 Las secuencias query deben darse como un único archivo mutlifasta.
 
