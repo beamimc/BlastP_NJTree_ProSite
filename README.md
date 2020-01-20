@@ -4,7 +4,7 @@ Paquete de pyhton que, dadas unas secuencias query en un archivo multifasta y un
 Para la correcta ejecución:
 - 
         - En el path de ejecución debe colocarse la carpeta Prosite_DB (que se adjunta) descomprimida.
-        - En el path donde se ubique el Main y el __innit__ debe colocarse la carpeta project, 
+        - En el path donde se ubique el Main debe colocarse la carpeta project, 
         para poder acceder a los distintos módulos. 
 
         - Las secuencias query deben darse en un único archivo mutlifasta.
