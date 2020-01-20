@@ -3,14 +3,15 @@ Paquete de pyhton que, dadas unas secuencias query en un archivo multifasta y un
 
 Para la correcta ejecución:
 - 
+- En el mismo path de ejecución debe colocarse la carpeta Prosite_DB (que se adjunta) descomprimida.
+- En el path donde se ubique el Main y el __innit__ debe colocarse la carpeta project, para poder acceder a los distintos modulos. 
 
-Las secuencias query deben darse como un único archivo mutlifasta.
-
-Los archivos .gbff que se deseen utilizar para obtener los CDS deben colocarse todos en una misma carpeta. La carpeta no debe contener nada más.
-
-Es posible introducir los valores deseados de filtrado en el porcentaje de identidad y de coverage para el BlastP, si no se indican, los valores por defecto son 30 y 0 respectivamente.
+- Las secuencias query deben darse en un único archivo mutlifasta.
+- Los archivos .gbff que se deseen utilizar para obtener los CDS deben colocarse todos en una misma carpeta. La carpeta no debe contener nada más.
+- Es posible introducir los valores deseados de filtrado en el porcentaje de identidad y de coverage para el BlastP, si no se indican, los valores por defecto son 30 y 0 respectivamente.
 
 En el directorio de ejecución se creará:
+--
 
     - un archivo log
     - una carpeta Data: que contendrá la o las querys utilizadas
