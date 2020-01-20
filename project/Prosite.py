@@ -31,7 +31,7 @@ def Prosite_parser():
 					protein.write("Name: %s\nAccesion: %s\nDescription: %s\nPattern: %s\n\n" % ( 
                             record.name,
                             record.accession,
-                            record.description,
+                            record.description, 
 							pattern))	
 				else:
 					pass
